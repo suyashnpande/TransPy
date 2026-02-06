@@ -20,9 +20,7 @@
 
 ## About
 
-This project implements a Transformer model from scratch for English-to-Finnish translation. We implement 3 positional embedding techniques (sinusoidal, RoPE, and relative bias), 3 decoding strategies (greedy decoding, top-k sampling, and beam search) and 2 tokenizer (wordlevel and BPE). This project was done as part of assignment of the Advanced NLP course at IIITH.
-
-**Note:** An implementation for vision transformer can be found in `vision-transformer` branch.
+This project implements a Transformer model from scratch for English-to-Finnish translation. We implement 3 positional embedding techniques (sinusoidal, RoPE, and relative bias), 3 decoding strategies (greedy decoding, top-k sampling, and beam search) and 2 tokenizer (wordlevel and BPE). 
 
 ## Model Configuration
 
