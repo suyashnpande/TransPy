@@ -1,0 +1,220 @@
+Using device cuda
+length of dataset: 80000, 10000, 10000
+Epoch 1/10: 100%|██████████| 2500/2500 [21:08<00:00,  1.97it/s, loss=7.768]
+
+Epoch 1 completed. Average Training Loss: 7.7970.
+Checkpoint saved at checkpoints/rope_model_0.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: 
+Top K Sampling: että Euroopan on ei ei on on Euroopan on että Euroopan on on on että ei on ja ei on on
+Beam Search: on on on
+/usr/local/lib/python3.12/dist-packages/nltk/translate/bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 2-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/usr/local/lib/python3.12/dist-packages/nltk/translate/bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 3-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/usr/local/lib/python3.12/dist-packages/nltk/translate/bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 4-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: 
+Top K Sampling: ei ei että Euroopan että ei ei Euroopan että ei ei että ei Euroopan Euroopan Euroopan että Jos Euroopan ei Euroopan on on että että että on on ja että ei että Euroopan
+Beam Search: on on on on
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 7.992219124248642e-232
+BLEU score using Beam Search: 8.416851712392762e-232
+Validation for epoch 1 completed.
+Epoch 2/10: 100%|██████████| 2500/2500 [21:09<00:00,  1.97it/s, loss=7.983]
+
+Epoch 2 completed. Average Training Loss: 7.7742.
+Checkpoint saved at checkpoints/rope_model_1.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: 
+Top K Sampling: Se
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: 
+Top K Sampling: on
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 0
+BLEU score using Beam Search: 0
+Validation for epoch 2 completed.
+Epoch 3/10: 100%|██████████| 2500/2500 [21:07<00:00,  1.97it/s, loss=7.588]
+
+Epoch 3 completed. Average Training Loss: 7.7291.
+Checkpoint saved at checkpoints/rope_model_2.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: 
+Top K Sampling: että on että
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: 
+Top K Sampling: on että
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 5.474320712955125e-232
+BLEU score using Beam Search: 0
+Validation for epoch 3 completed.
+Epoch 4/10: 100%|██████████| 2500/2500 [21:06<00:00,  1.97it/s, loss=7.609]
+
+Epoch 4 completed. Average Training Loss: 7.6925.
+Checkpoint saved at checkpoints/rope_model_3.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: 
+Top K Sampling: PPE PPE PPE DE ja ja
+Beam Search: keskustelut
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: 
+Top K Sampling: PPE 0
+Beam Search: keskustelut
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 0
+BLEU score using Beam Search: 0
+Validation for epoch 4 completed.
+Epoch 5/10: 100%|██████████| 2500/2500 [21:08<00:00,  1.97it/s, loss=7.094]
+
+Epoch 5 completed. Average Training Loss: 7.6747.
+Checkpoint saved at checkpoints/rope_model_4.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: Parlamentin Vastaus Parlamentin Vastaus Vastaus Vastaus Vastaus Vastaus Parlamentin Parlamentin Parlamentin
+Top K Sampling: PSE B N DE puhemies 0 DE on Arvoisa jäsen puhemies
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: Parlamentin Vastaus Parlamentin Vastaus Parlamentin Vastaus Vastaus Vastaus Parlamentin Vastaus Vastaus Vastaus Parlamentin Vastaus Parlamentin Parlamentin Vastaus Parlamentin Vastaus Parlamentin Parlamentin Parlamentin Parlamentin Vastaus Parlamentin
+Top K Sampling: Vastaus ja on
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 9.418382295637229e-232
+BLEU score using Beam Search: 0
+Validation for epoch 5 completed.
+Epoch 6/10: 100%|██████████| 2500/2500 [21:07<00:00,  1.97it/s, loss=8.033]
+
+Epoch 6 completed. Average Training Loss: 7.6762.
+Checkpoint saved at checkpoints/rope_model_5.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: 
+Top K Sampling: Arvoisa ja on on
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: 
+Top K Sampling: 0 että että
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 8.416851712392762e-232
+BLEU score using Beam Search: 0
+Validation for epoch 6 completed.
+Epoch 7/10: 100%|██████████| 2500/2500 [21:06<00:00,  1.97it/s, loss=7.673]
+
+Epoch 7 completed. Average Training Loss: 7.6650.
+Checkpoint saved at checkpoints/rope_model_6.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: 
+Top K Sampling: Arvoisa
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: 
+Top K Sampling: Arvoisa Arvoisa
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 0
+BLEU score using Beam Search: 0
+Validation for epoch 7 completed.
+Epoch 8/10: 100%|██████████| 2500/2500 [21:07<00:00,  1.97it/s, loss=7.650]
+
+Epoch 8 completed. Average Training Loss: 7.6942.
+Checkpoint saved at checkpoints/rope_model_7.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: 
+Top K Sampling: 
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: 
+Top K Sampling: 
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 0
+BLEU score using Beam Search: 0
+Validation for epoch 8 completed.
+Epoch 9/10: 100%|██████████| 2500/2500 [21:06<00:00,  1.97it/s, loss=7.607]
+
+Epoch 9 completed. Average Training Loss: 7.6631.
+Checkpoint saved at checkpoints/rope_model_8.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: 
+Top K Sampling: Parlamentin Arvoisa
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: 
+Top K Sampling: Arvoisa puhemies on ja
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 0
+BLEU score using Beam Search: 0
+Validation for epoch 9 completed.
+Epoch 10/10: 100%|██████████| 2500/2500 [21:07<00:00,  1.97it/s, loss=7.583]
+
+Epoch 10 completed. Average Training Loss: 7.6637.
+Checkpoint saved at checkpoints/rope_model_9.
+--------------------------------------------------------------------------------
+Source: (Parliament approved the request for referral)
+Target: Oomen-Ruijtenilla on puheenvuoro mietinnön palauttamisesta valiokuntaan.
+Greedy Decoding: 
+Top K Sampling: puhemies
+Beam Search: PSE
+--------------------------------------------------------------------------------
+Source: Order of European Merit (silver medal).
+Target: Hopeinen Euroopan ansiomitali.
+Greedy Decoding: 
+Top K Sampling: puhemies PSE on
+Beam Search: PSE
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 0
+BLEU score using Beam Search: 0
+Validation for epoch 10 completed.

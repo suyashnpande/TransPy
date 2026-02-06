@@ -1,0 +1,200 @@
+Using device cuda
+length of dataset: 80000, 10000, 10000
+Epoch 1/10: 100%|██████████| 2500/2500 [22:04<00:00,  1.89it/s, loss=7.920]
+
+Epoch 1 completed. Average Training Loss: 7.8308.
+Checkpoint saved at checkpoints/relative_bias_model_0.
+--------------------------------------------------------------------------------
+Source: The point is that the purpose of the present initiative is that the procedure which cunently applies to goods should be extended to include the new services sector, but with no changes of any kind, since this is a procedure of proven value.
+Target: Käsiteltävän aloitteen, tavoitteena onkin laajentaa menettely, joka tällä hetkeUä koskee tavaroita, käsittämään myös uusien palveluiden ala muuttamatta sitä kuitenkaan miten kään, sillä on kyse menettelystä, josta on ollut hyviä kokemuksia.
+Greedy Decoding: 
+Top K Sampling: on on että ja että
+Beam Search: 
+/usr/local/lib/python3.12/dist-packages/nltk/translate/bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 2-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/usr/local/lib/python3.12/dist-packages/nltk/translate/bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 3-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/usr/local/lib/python3.12/dist-packages/nltk/translate/bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 4-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+--------------------------------------------------------------------------------
+Source: If we want to reopen the whole subject, we shall probably have to go through a procedure which will take a couple of years longer to complete.
+Target: Jos haluamme avata tämän asian uudelleen, edessä on todennäköisesti sellainen käsittelyjärjestys, joka vie vuoden tai pari lisää, sillä joudumme nenkilöstöyhteistyön periaatetta kunnioittaen avaamaan uudet konsultaatiot tästä kokonaisuudessaan. Sitä on komission harkittava.
+Greedy Decoding: 
+Top K Sampling: 
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 1.8929093331550775e-236
+BLEU score using Beam Search: 0
+Validation for epoch 1 completed.
+Epoch 2/10: 100%|██████████| 2500/2500 [22:05<00:00,  1.89it/s, loss=7.888]
+
+Epoch 2 completed. Average Training Loss: 7.8356.
+Checkpoint saved at checkpoints/relative_bias_model_1.
+--------------------------------------------------------------------------------
+Source: The point is that the purpose of the present initiative is that the procedure which cunently applies to goods should be extended to include the new services sector, but with no changes of any kind, since this is a procedure of proven value.
+Target: Käsiteltävän aloitteen, tavoitteena onkin laajentaa menettely, joka tällä hetkeUä koskee tavaroita, käsittämään myös uusien palveluiden ala muuttamatta sitä kuitenkaan miten kään, sillä on kyse menettelystä, josta on ollut hyviä kokemuksia.
+Greedy Decoding: 
+Top K Sampling: on on että
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: If we want to reopen the whole subject, we shall probably have to go through a procedure which will take a couple of years longer to complete.
+Target: Jos haluamme avata tämän asian uudelleen, edessä on todennäköisesti sellainen käsittelyjärjestys, joka vie vuoden tai pari lisää, sillä joudumme nenkilöstöyhteistyön periaatetta kunnioittaen avaamaan uudet konsultaatiot tästä kokonaisuudessaan. Sitä on komission harkittava.
+Greedy Decoding: 
+Top K Sampling: 
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 6.150222689880894e-240
+BLEU score using Beam Search: 0
+Validation for epoch 2 completed.
+Epoch 3/10: 100%|██████████| 2500/2500 [22:04<00:00,  1.89it/s, loss=7.764]
+
+Epoch 3 completed. Average Training Loss: 7.8555.
+Checkpoint saved at checkpoints/relative_bias_model_2.
+--------------------------------------------------------------------------------
+Source: The point is that the purpose of the present initiative is that the procedure which cunently applies to goods should be extended to include the new services sector, but with no changes of any kind, since this is a procedure of proven value.
+Target: Käsiteltävän aloitteen, tavoitteena onkin laajentaa menettely, joka tällä hetkeUä koskee tavaroita, käsittämään myös uusien palveluiden ala muuttamatta sitä kuitenkaan miten kään, sillä on kyse menettelystä, josta on ollut hyviä kokemuksia.
+Greedy Decoding: 
+Top K Sampling: on on että että
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: If we want to reopen the whole subject, we shall probably have to go through a procedure which will take a couple of years longer to complete.
+Target: Jos haluamme avata tämän asian uudelleen, edessä on todennäköisesti sellainen käsittelyjärjestys, joka vie vuoden tai pari lisää, sillä joudumme nenkilöstöyhteistyön periaatetta kunnioittaen avaamaan uudet konsultaatiot tästä kokonaisuudessaan. Sitä on komission harkittava.
+Greedy Decoding: 
+Top K Sampling: 
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 9.382681068883668e-238
+BLEU score using Beam Search: 0
+Validation for epoch 3 completed.
+Epoch 4/10: 100%|██████████| 2500/2500 [22:07<00:00,  1.88it/s, loss=7.998]
+
+Epoch 4 completed. Average Training Loss: 7.8610.
+Checkpoint saved at checkpoints/relative_bias_model_3.
+--------------------------------------------------------------------------------
+Source: The point is that the purpose of the present initiative is that the procedure which cunently applies to goods should be extended to include the new services sector, but with no changes of any kind, since this is a procedure of proven value.
+Target: Käsiteltävän aloitteen, tavoitteena onkin laajentaa menettely, joka tällä hetkeUä koskee tavaroita, käsittämään myös uusien palveluiden ala muuttamatta sitä kuitenkaan miten kään, sillä on kyse menettelystä, josta on ollut hyviä kokemuksia.
+Greedy Decoding: 
+Top K Sampling: 
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: If we want to reopen the whole subject, we shall probably have to go through a procedure which will take a couple of years longer to complete.
+Target: Jos haluamme avata tämän asian uudelleen, edessä on todennäköisesti sellainen käsittelyjärjestys, joka vie vuoden tai pari lisää, sillä joudumme nenkilöstöyhteistyön periaatetta kunnioittaen avaamaan uudet konsultaatiot tästä kokonaisuudessaan. Sitä on komission harkittava.
+Greedy Decoding: 
+Top K Sampling: on
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 1.3414729210872215e-257
+BLEU score using Beam Search: 0
+Validation for epoch 4 completed.
+Epoch 5/10: 100%|██████████| 2500/2500 [22:05<00:00,  1.89it/s, loss=8.056]
+
+Epoch 5 completed. Average Training Loss: 7.8640.
+Checkpoint saved at checkpoints/relative_bias_model_4.
+--------------------------------------------------------------------------------
+Source: The point is that the purpose of the present initiative is that the procedure which cunently applies to goods should be extended to include the new services sector, but with no changes of any kind, since this is a procedure of proven value.
+Target: Käsiteltävän aloitteen, tavoitteena onkin laajentaa menettely, joka tällä hetkeUä koskee tavaroita, käsittämään myös uusien palveluiden ala muuttamatta sitä kuitenkaan miten kään, sillä on kyse menettelystä, josta on ollut hyviä kokemuksia.
+Greedy Decoding: 
+Top K Sampling: on että
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: If we want to reopen the whole subject, we shall probably have to go through a procedure which will take a couple of years longer to complete.
+Target: Jos haluamme avata tämän asian uudelleen, edessä on todennäköisesti sellainen käsittelyjärjestys, joka vie vuoden tai pari lisää, sillä joudumme nenkilöstöyhteistyön periaatetta kunnioittaen avaamaan uudet konsultaatiot tästä kokonaisuudessaan. Sitä on komission harkittava.
+Greedy Decoding: 
+Top K Sampling: on että että
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 1.981185423763303e-236
+BLEU score using Beam Search: 0
+Validation for epoch 5 completed.
+Epoch 6/10: 100%|██████████| 2500/2500 [22:05<00:00,  1.89it/s, loss=8.055]
+
+Epoch 6 completed. Average Training Loss: 7.8681.
+Checkpoint saved at checkpoints/relative_bias_model_5.
+--------------------------------------------------------------------------------
+Source: The point is that the purpose of the present initiative is that the procedure which cunently applies to goods should be extended to include the new services sector, but with no changes of any kind, since this is a procedure of proven value.
+Target: Käsiteltävän aloitteen, tavoitteena onkin laajentaa menettely, joka tällä hetkeUä koskee tavaroita, käsittämään myös uusien palveluiden ala muuttamatta sitä kuitenkaan miten kään, sillä on kyse menettelystä, josta on ollut hyviä kokemuksia.
+Greedy Decoding: 
+Top K Sampling: ja
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: If we want to reopen the whole subject, we shall probably have to go through a procedure which will take a couple of years longer to complete.
+Target: Jos haluamme avata tämän asian uudelleen, edessä on todennäköisesti sellainen käsittelyjärjestys, joka vie vuoden tai pari lisää, sillä joudumme nenkilöstöyhteistyön periaatetta kunnioittaen avaamaan uudet konsultaatiot tästä kokonaisuudessaan. Sitä on komission harkittava.
+Greedy Decoding: 
+Top K Sampling: on ja ja on ja on että
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 1.709198028166997e-234
+BLEU score using Beam Search: 0
+Validation for epoch 6 completed.
+Epoch 7/10: 100%|██████████| 2500/2500 [22:08<00:00,  1.88it/s, loss=7.831]
+
+Epoch 7 completed. Average Training Loss: 7.8701.
+Checkpoint saved at checkpoints/relative_bias_model_6.
+--------------------------------------------------------------------------------
+Source: The point is that the purpose of the present initiative is that the procedure which cunently applies to goods should be extended to include the new services sector, but with no changes of any kind, since this is a procedure of proven value.
+Target: Käsiteltävän aloitteen, tavoitteena onkin laajentaa menettely, joka tällä hetkeUä koskee tavaroita, käsittämään myös uusien palveluiden ala muuttamatta sitä kuitenkaan miten kään, sillä on kyse menettelystä, josta on ollut hyviä kokemuksia.
+Greedy Decoding: 
+Top K Sampling: on
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: If we want to reopen the whole subject, we shall probably have to go through a procedure which will take a couple of years longer to complete.
+Target: Jos haluamme avata tämän asian uudelleen, edessä on todennäköisesti sellainen käsittelyjärjestys, joka vie vuoden tai pari lisää, sillä joudumme nenkilöstöyhteistyön periaatetta kunnioittaen avaamaan uudet konsultaatiot tästä kokonaisuudessaan. Sitä on komission harkittava.
+Greedy Decoding: 
+Top K Sampling: 
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 1.3414729210872215e-257
+BLEU score using Beam Search: 0
+Validation for epoch 7 completed.
+Epoch 8/10: 100%|██████████| 2500/2500 [22:07<00:00,  1.88it/s, loss=7.725]
+
+Epoch 8 completed. Average Training Loss: 7.8703.
+Checkpoint saved at checkpoints/relative_bias_model_7.
+--------------------------------------------------------------------------------
+Source: The point is that the purpose of the present initiative is that the procedure which cunently applies to goods should be extended to include the new services sector, but with no changes of any kind, since this is a procedure of proven value.
+Target: Käsiteltävän aloitteen, tavoitteena onkin laajentaa menettely, joka tällä hetkeUä koskee tavaroita, käsittämään myös uusien palveluiden ala muuttamatta sitä kuitenkaan miten kään, sillä on kyse menettelystä, josta on ollut hyviä kokemuksia.
+Greedy Decoding: 
+Top K Sampling: ja ja on että
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: If we want to reopen the whole subject, we shall probably have to go through a procedure which will take a couple of years longer to complete.
+Target: Jos haluamme avata tämän asian uudelleen, edessä on todennäköisesti sellainen käsittelyjärjestys, joka vie vuoden tai pari lisää, sillä joudumme nenkilöstöyhteistyön periaatetta kunnioittaen avaamaan uudet konsultaatiot tästä kokonaisuudessaan. Sitä on komission harkittava.
+Greedy Decoding: 
+Top K Sampling: on ja ja ja on ja
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 8.220283194227999e-234
+BLEU score using Beam Search: 0
+Validation for epoch 8 completed.
+Epoch 9/10: 100%|██████████| 2500/2500 [22:05<00:00,  1.89it/s, loss=7.639]
+
+Epoch 9 completed. Average Training Loss: 7.8713.
+Checkpoint saved at checkpoints/relative_bias_model_8.
+--------------------------------------------------------------------------------
+Source: The point is that the purpose of the present initiative is that the procedure which cunently applies to goods should be extended to include the new services sector, but with no changes of any kind, since this is a procedure of proven value.
+Target: Käsiteltävän aloitteen, tavoitteena onkin laajentaa menettely, joka tällä hetkeUä koskee tavaroita, käsittämään myös uusien palveluiden ala muuttamatta sitä kuitenkaan miten kään, sillä on kyse menettelystä, josta on ollut hyviä kokemuksia.
+Greedy Decoding: 
+Top K Sampling: ja
+Beam Search: 
+--------------------------------------------------------------------------------
+Source: If we want to reopen the whole subject, we shall probably have to go through a procedure which will take a couple of years longer to complete.
+Target: Jos haluamme avata tämän asian uudelleen, edessä on todennäköisesti sellainen käsittelyjärjestys, joka vie vuoden tai pari lisää, sillä joudumme nenkilöstöyhteistyön periaatetta kunnioittaen avaamaan uudet konsultaatiot tästä kokonaisuudessaan. Sitä on komission harkittava.
+Greedy Decoding: 
+Top K Sampling: on
+Beam Search: 
+BLEU score using Greedy Decoding: 0
+BLEU score using Top K Sampling: 2.363543547789323e-244
+BLEU score using Beam Search: 0
+Validation for epoch 9 completed.
