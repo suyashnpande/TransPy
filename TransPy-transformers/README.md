@@ -116,7 +116,7 @@ This will:
 3) Run validation after each epoch and provide BLEU score. Additionally, it will print few examples for each decoding strategy.
 4) Plot the training loss after completion of all epochs
 
-**Note:** The current configuration requires approximately 22 mins per epoch. The google colab file for training / testing the model is available <a href="https://colab.research.google.com/drive/16m7hyozocn5VBUge4saCzOY4PnAPjZhE?usp=sharing">here</a>.
+Note: The current configuration requires approximately 22 mins per epoch. The google colab file for training / testing the model is available <a href="https://colab.research.google.com/drive/1VCITyBOZafxaeiieBl1l-Ydf10cuTrSd">here</a>.
 
 ### Testing
 
